@@ -1,0 +1,27 @@
+#Q: wap to program to print hello world
+print("hello world")
+
+#Q: wap to run a parameterized function for addition, multiplication
+a = (2,3,4,5) #creat variable
+b = 4
+e = 5
+c = sum(a) #sum of elements in a 
+print("Sum of elements in a : ",c) #printing the sum
+d = b*e #perform multiplication between b and e
+print("Multiplication between element in b and e : ",d) #printing multiplication
+
+#Q :how to check data types of intvalues, strvalues, floatvalues
+
+val1 = 1 #intvalue
+val2 = 'a' #strvalue
+val3 = 1.2 #floatvalue
+
+#printing type :
+print("type of val1: ", type(val1))
+print("type of val2: ", type(val2))
+print("type of val3: ", type(val3))
+
+#Q: what are classes and objects 
+class MyClass:
+  x = 5
+print(MyClass)
